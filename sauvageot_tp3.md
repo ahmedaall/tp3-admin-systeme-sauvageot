@@ -67,7 +67,11 @@ End-Date: 2019-09-23  13:09:06
 ``` 
 
 
-## Exercice 2. 
+## Exercice 2. A partir de quel paquet est installée la commande ls ? Comment obtenir cette information en une seule commande, pour n’importe quel programme (indice : la réponse est dans le poly de cours 2, dans la liste des commandes utiles) ?
+
+<code> which -a ls | xargs dpkg -S </code>
+
+## Exercice 3. 
 
 
 
