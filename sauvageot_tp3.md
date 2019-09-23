@@ -29,7 +29,8 @@ grep installed /var/log/dpkg.log | tail -5
 ### **4. Créer un alias “maj” qui met à jour le système**
 
 <code> alias maj='apt update && apt upgrade' </code> <br>
-<code> maj </code> 
+<code> source ~/.bashrc </code> 
+<code> maj </code> <br>
 
 
 
