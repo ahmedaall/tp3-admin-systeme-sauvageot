@@ -85,6 +85,16 @@ fi
 
 <code>  apt show coreutils </code>
 
+## Exercice 5 Installez le paquet emacs à l’aide de la version graphique d’aptitude.
+
+``` 
+aptitude 
+ensuite / pour chercher le paquet emacs 
+sélectionner le paquets emacs 
+et  + ig <entré> g et le paquet s'installe. 
+``` 
+
+
 
 
 
