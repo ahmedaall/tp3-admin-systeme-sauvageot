@@ -69,9 +69,20 @@ End-Date: 2019-09-23  13:09:06
 
 ## Exercice 2. A partir de quel paquet est installée la commande ls ? Comment obtenir cette information en une seule commande, pour n’importe quel programme (indice : la réponse est dans le poly de cours 2, dans la liste des commandes utiles) ?
 
-<code> which -a ls | xargs dpkg -S </code>
+<code> which -a ls | tail -1 | xargs dpkg -S </code>
 
-## Exercice 3. 
+## Exercice 3. Ecrire une commande qui affiche “INSTALLÉ” ou “NON INSTALLÉ” selon le nom et le statut du package spécifié dans cette commande.
+``` 
+!/bin/bash
+if [ -z "$1" ]; then
+        echo "no argument, provide a command name."
+else
+        dpkg -S $(which "$1");
+        echo "Commande reconnu";
+fi
+``` 
+## Exercice 4. Lister les programmes livrés avec coreutils. A quoi sert la commande ’[’ et comment afficher ce qu’elle retourne ?
+
 
 
 
