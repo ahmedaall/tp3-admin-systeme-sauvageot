@@ -83,6 +83,8 @@ fi
 ``` 
 ## Exercice 4. Lister les programmes livrés avec coreutils. A quoi sert la commande ’[’ et comment afficher ce qu’elle retourne ?
 
+<code>  apt show coreutils </code>
+
 
 
 
