@@ -93,7 +93,24 @@ ensuite / pour chercher le paquet emacs
 sélectionner le paquets emacs 
 et  + ig <entré> g et le paquet s'installe. 
 ``` 
+## Exercice 6. Installation d’un paquet par PPA
 
+
+### **1. Installer la version Oracle de Java (avec l’ajout des PPA)**
+
+
+``` 
+sudo add-apt-repository ppa:linuxuprising/java
+sudo apt update
+sudo apt install oracle-java12-installer
+``` 
+Vérifiez qu’un nouveau fichier a été créé dans /etc/apt/sources.list.d. Que contient-il ?
+``` 
+cd /etc/apt/source.list.d
+
+
+linuxuprising-ubuntu-java-disco.list
+``` 
 
 
 
