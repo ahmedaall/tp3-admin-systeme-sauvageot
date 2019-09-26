@@ -111,7 +111,22 @@ ls
 linuxuprising-ubuntu-java-disco.list
 ``` 
 
+## Exercice 7 Création de dépôt personnalisé
 
+### Création d’un paquet Debian avec dpkg-deb
+
+## Exercice 8 Installation d’un logiciel à partir du code source
+
+### ** 1. Commencez par cloner le dépôt git suivant** :
+```
+apt update 
+apt install git 
+git clone https://github.com/jubalh/nudoku
+```
+
+Cette action permet de cloner le code source nudoku, hébergé sur le dépot git : https://github.com/jubalh/nudoku
+
+### ** 2. Rendez vous dans le dossier nudoku qui vient d’être créé et lancez la commande autoreconf -i (ainsi que spécifié dans le fichier README.md). A vous d’installer les éventuels paquets manquants (un peu d’aide : pour résoudre le problème de la macro AM_GNU_GETTEXT manquante, installez le paquet gettext). Relancez la commande autoreconf -i après chaque paquet installé jusqu’à ce qu’elle se termine sans erreur.
 
 
 
