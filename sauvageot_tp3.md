@@ -107,8 +107,7 @@ sudo apt install oracle-java12-installer
 Vérifiez qu’un nouveau fichier a été créé dans /etc/apt/sources.list.d. Que contient-il ?
 ``` 
 cd /etc/apt/source.list.d
-
-
+ls
 linuxuprising-ubuntu-java-disco.list
 ``` 
 
